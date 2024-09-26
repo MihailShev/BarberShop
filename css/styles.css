@@ -1,0 +1,71 @@
+/* ===== general style===== */
+
+body {
+  font-family: "Open Sans", system-ui;
+  background-color: #fff;
+  color: #434455;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  cursor: grabbing;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+/* ===== /general style===== */
+
+/* ===== header style===== */
+
+/* ===== /header style===== */
+
+/* ===== about section===== */
+
+/* ===== /about section===== */
+
+/* ===== prices section===== */
+
+/* ===== /prices section===== */
+
+/* ===== benefist section===== */
+
+/* ===== /benefist section===== */
+
+/* ===== team section===== */
+
+/* ===== /team section===== */
+
+/* ===== portfolio section===== */
+
+/* ===== /portfolio section===== */
+
+/* ===== booking section===== */
+
+/* ===== /booking section===== */
+
+/* ===== footer section===== */
+
+/* ===== /footer section===== */
