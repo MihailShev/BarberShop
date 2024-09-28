@@ -36,9 +36,116 @@ ol {
   padding-left: 0;
 }
 
+.container {
+  width: 1170px;
+  padding: 0, 215px;
+  margin: 0 auto;
+}
+
 /* ===== /general style===== */
 
 /* ===== header style===== */
+.main-header {
+  /* background-image: url(../images/header/slider-header-main.jpg),
+    url(../images/header/slider-header-one.jpg),
+    url(../images/header/slider-header-two.jpg);
+  background-repeat: no-repeat;
+  background-size: 1070px, 680px;
+  background-position: right, top; */
+}
+
+.wrap-header-social {
+  display: inline-flex;
+  justify-content: center;
+  width: 155px;
+  height: 680px;
+}
+
+.header-social-list {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  row-gap: 40px;
+}
+
+.hader-social-item {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin-left: 82px;
+  margin-right: 58px;
+}
+
+.hader-social-item-logo {
+  display: block;
+  margin-bottom: auto;
+  margin-top: 32px;
+  margin-left: 55px;
+  margin-right: 31px;
+}
+
+.header-social-link {
+}
+
+.logo-header {
+}
+
+.logo-svg {
+}
+
+.wrap-header-nav {
+  display: inline-flex;
+  width: 953px;
+  height: 48px;
+}
+
+.nav-header {
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-list-item {
+}
+
+.header-nav-link {
+}
+
+.contact-tel {
+}
+
+.header-btn {
+}
+
+.wrapp-header-text {
+  display: inline-flex;
+  flex-direction: column;
+  width: 444px;
+  height: 200px;
+}
+
+.main-title {
+}
+
+.sub-title {
+}
+
+.header-descr {
+}
+
+.header-list-btn {
+  display: flex;
+  column-gap: 24px;
+}
+
+.header-list-btn-item {
+}
+
+.btn-back {
+}
+
+.btn-next {
+}
 
 /* ===== /header style===== */
 
