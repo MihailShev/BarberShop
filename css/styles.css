@@ -37,52 +37,70 @@ ol {
 }
 
 .container {
+  max-width: 480px;
+  padding: 0 31px;
+  margin: 0 auto;
+}
+
+.box-position {
+  position: relative;
+}
+
+.acent-color {
+  color: #ff6c00;
+}
+
+/* .container {
   width: 1170px;
   padding: 0, 215px;
   margin: 0 auto;
-}
+} */
 
 /* ===== /general style===== */
 
 /* ===== header style===== */
 .main-header {
-  /* background-image: url(../images/header/slider-header-main.jpg),
-    url(../images/header/slider-header-one.jpg),
-    url(../images/header/slider-header-two.jpg);
+  background-image: url(../images/header/slider-header-main.jpg);
+  background-size: 480px, 580px;
   background-repeat: no-repeat;
-  background-size: 1070px, 680px;
-  background-position: right, top; */
+  background-position: center;
+}
+
+.logo-header-modile {
+  fill: #fff;
+}
+
+.header-btn-menu {
+  position: absolute;
+  top: 48px;
+  right: 31px;
+  fill: #fff;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header-icon-menu {
 }
 
 .wrap-header-social {
-  display: inline-flex;
-  justify-content: center;
-  width: 155px;
-  height: 680px;
+  display: none;
 }
 
 .header-social-list {
-  display: inline-flex;
-  flex-direction: column-reverse;
-  row-gap: 40px;
 }
 
 .hader-social-item {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  margin-left: 82px;
-  margin-right: 58px;
-}
-
-.hader-social-item-logo {
-  display: block;
-  margin-bottom: auto;
-  margin-top: 32px;
-  margin-left: 55px;
-  margin-right: 31px;
 }
 
 .header-social-link {
+}
+
+.hader-social-item-logo {
 }
 
 .logo-header {
@@ -92,17 +110,13 @@ ol {
 }
 
 .wrap-header-nav {
-  display: inline-flex;
-  width: 953px;
-  height: 48px;
+  display: none;
 }
 
 .nav-header {
 }
 
 .header-nav-list {
-  display: flex;
-  gap: 30px;
 }
 
 .nav-list-item {
@@ -118,24 +132,19 @@ ol {
 }
 
 .wrapp-header-text {
-  display: inline-flex;
-  flex-direction: column;
-  width: 444px;
-  height: 200px;
 }
 
 .main-title {
 }
 
-.sub-title {
+.header-sub-title {
 }
 
 .header-descr {
 }
 
 .header-list-btn {
-  display: flex;
-  column-gap: 24px;
+  display: none;
 }
 
 .header-list-btn-item {
@@ -150,29 +159,184 @@ ol {
 /* ===== /header style===== */
 
 /* ===== about section===== */
+.container {
+}
+
+.about-title {
+}
+
+.about-subtitle {
+}
+
+.about-text {
+}
+
+.about-subtext {
+}
+
+.main-button {
+}
 
 /* ===== /about section===== */
 
 /* ===== prices section===== */
+.container {
+}
+
+.price-title {
+}
+
+.prices-title {
+}
+
+.price-list {
+}
+
+.price-item {
+}
+
+.prise {
+}
+
+.price-list-right {
+}
+
+.price-item-right {
+}
+
+.main-button {
+}
 
 /* ===== /prices section===== */
 
 /* ===== benefist section===== */
+.container {
+}
+
+.benefits-title {
+}
+
+.benefist-sub-title {
+}
+
+.benefist-text {
+}
+
+.benefist-box {
+}
+
+.benefist-box-namber {
+}
+
+.benefist-box-text {
+}
 
 /* ===== /benefist section===== */
 
 /* ===== team section===== */
+.container {
+}
+
+.team-title {
+}
+
+.team-sub-title {
+}
+
+.card-team {
+}
+
+.card-text {
+}
+
+.name-team {
+}
+
+.desc-team {
+}
+
+.social-icon-list {
+}
+
+.social-icon-item {
+}
+
+.social-icon {
+}
+
+.icon-instagram {
+}
+
+.icon-twitter {
+}
+
+.icon-facebook {
+}
+
+.icon-linkedin {
+}
 
 /* ===== /team section===== */
 
 /* ===== portfolio section===== */
+.container {
+}
+
+.portfolio-title {
+}
 
 /* ===== /portfolio section===== */
 
 /* ===== booking section===== */
+.container {
+}
+
+.booking-title {
+}
+
+.booking-form {
+}
+
+.booking-input {
+}
+
+.booking-textarea {
+}
+
+.main-button {
+}
+
+.contact-list {
+}
+
+.contact-link {
+}
+
+.portfolio-text {
+}
+
+.portfolio-subtext {
+}
 
 /* ===== /booking section===== */
 
 /* ===== footer section===== */
+.main-footr {
+}
+
+.container {
+}
+
+.footr-text {
+}
+
+.footer-social-list {
+}
+
+.footer-social-item {
+}
+
+.footer-social-link {
+}
 
 /* ===== /footer section===== */
