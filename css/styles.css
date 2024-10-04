@@ -1,5 +1,11 @@
 /* ===== general style===== */
 
+@media screen and (min-width: 320px) {
+  body::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 body {
   font-family: "Open Sans", system-ui;
   background-color: #fff;
@@ -15,7 +21,9 @@ li {
 
 img {
   display: block;
-  cursor: grabbing;
+  width: 100%;
+  height: auto;
+  cursor: default;
 }
 
 h1,
@@ -40,10 +48,6 @@ ol {
   max-width: 480px;
   padding: 0 31px;
   margin: 0 auto;
-}
-
-.box-position {
-  position: relative;
 }
 
 .acent-color {
@@ -71,14 +75,7 @@ ol {
 }
 
 .header-btn-menu {
-  position: absolute;
-  top: 48px;
-  right: 31px;
   fill: #fff;
-  margin: 0;
-  padding: 0;
-  width: 40px;
-  height: 40px;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -87,48 +84,10 @@ ol {
 .header-icon-menu {
 }
 
-.wrap-header-social {
+.wrap-header-social,
+.wrap-header-nav,
+.header-list-btn {
   display: none;
-}
-
-.header-social-list {
-}
-
-.hader-social-item {
-}
-
-.header-social-link {
-}
-
-.hader-social-item-logo {
-}
-
-.logo-header {
-}
-
-.logo-svg {
-}
-
-.wrap-header-nav {
-  display: none;
-}
-
-.nav-header {
-}
-
-.header-nav-list {
-}
-
-.nav-list-item {
-}
-
-.header-nav-link {
-}
-
-.contact-tel {
-}
-
-.header-btn {
 }
 
 .wrapp-header-text {
@@ -143,200 +102,32 @@ ol {
 .header-descr {
 }
 
-.header-list-btn {
-  display: none;
-}
-
-.header-list-btn-item {
-}
-
-.btn-back {
-}
-
-.btn-next {
-}
-
 /* ===== /header style===== */
 
 /* ===== about section===== */
-.container {
-}
-
-.about-title {
-}
-
-.about-subtitle {
-}
-
-.about-text {
-}
-
-.about-subtext {
-}
-
-.main-button {
-}
 
 /* ===== /about section===== */
 
 /* ===== prices section===== */
-.container {
-}
-
-.price-title {
-}
-
-.prices-title {
-}
-
-.price-list {
-}
-
-.price-item {
-}
-
-.prise {
-}
-
-.price-list-right {
-}
-
-.price-item-right {
-}
-
-.main-button {
-}
 
 /* ===== /prices section===== */
 
 /* ===== benefist section===== */
-.container {
-}
-
-.benefits-title {
-}
-
-.benefist-sub-title {
-}
-
-.benefist-text {
-}
-
-.benefist-box {
-}
-
-.benefist-box-namber {
-}
-
-.benefist-box-text {
-}
 
 /* ===== /benefist section===== */
 
 /* ===== team section===== */
-.container {
-}
-
-.team-title {
-}
-
-.team-sub-title {
-}
-
-.card-team {
-}
-
-.card-text {
-}
-
-.name-team {
-}
-
-.desc-team {
-}
-
-.social-icon-list {
-}
-
-.social-icon-item {
-}
-
-.social-icon {
-}
-
-.icon-instagram {
-}
-
-.icon-twitter {
-}
-
-.icon-facebook {
-}
-
-.icon-linkedin {
-}
 
 /* ===== /team section===== */
 
 /* ===== portfolio section===== */
-.container {
-}
-
-.portfolio-title {
-}
 
 /* ===== /portfolio section===== */
 
 /* ===== booking section===== */
-.container {
-}
-
-.booking-title {
-}
-
-.booking-form {
-}
-
-.booking-input {
-}
-
-.booking-textarea {
-}
-
-.main-button {
-}
-
-.contact-list {
-}
-
-.contact-link {
-}
-
-.portfolio-text {
-}
-
-.portfolio-subtext {
-}
 
 /* ===== /booking section===== */
 
 /* ===== footer section===== */
-.main-footr {
-}
-
-.container {
-}
-
-.footr-text {
-}
-
-.footer-social-list {
-}
-
-.footer-social-item {
-}
-
-.footer-social-link {
-}
 
 /* ===== /footer section===== */
